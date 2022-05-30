@@ -1,0 +1,28 @@
+{
+  "name": "albumpanini-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "./node_modules/.bin/cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristianLasso/albumpanini-ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CristianLasso/albumpanini-ui/issues"
+  },
+  "homepage": "https://github.com/CristianLasso/albumpanini-ui#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "cypress": "^9.7.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.1.0"
+  }
+}
